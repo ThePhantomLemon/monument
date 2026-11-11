@@ -1,0 +1,4514 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Date": "",
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "GUID": "97dc0d",
+      "Name": "Bag",
+      "Transform": {
+        "posX": 0,
+        "posY": 1,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Monument v0.1",
+      "Description": "Built 2026-11-10 16:23. Take out each player's starting deck and draft pool.",
+      "ColorDiffuse": {
+        "r": 0.61,
+        "g": 0.48,
+        "b": 0.12
+      },
+      "ContainedObjects": [
+        {
+          "GUID": "3adac0",
+          "Name": "Card",
+          "Transform": {
+            "posX": 0,
+            "posY": 1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Monument",
+          "Description": "Build: 4 marble\nBuilding this wins the game.",
+          "GMNotes": "M01 v0.1 | Victory",
+          "CardID": 300,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/shared-1-9b398f66a4.png",
+              "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-shared-d9dea3eca3.png",
+              "NumWidth": 2,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "Hands": true,
+          "HideWhenFaceDown": true,
+          "SidewaysCard": false,
+          "ColorDiffuse": {
+            "r": 0.713,
+            "g": 0.713,
+            "b": 0.713
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false
+        },
+        {
+          "GUID": "86b84a",
+          "Name": "Deck",
+          "Transform": {
+            "posX": 0,
+            "posY": 1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Player 1 starting deck",
+          "Description": "",
+          "DeckIDs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            101,
+            101,
+            101,
+            102,
+            103
+          ],
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+              "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "3c86ae",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3e6121",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d867c5",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c8596e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3a8c47",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "346508",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "48fc30",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6a87c8",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c293d3",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Study",
+              "Description": "Exert any number of other cards from your hand. Gain that many (ideas).",
+              "GMNotes": "S03 v0.1 | Turns spare cards into ideas",
+              "CardID": 102,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "bc9c67",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Survey",
+              "Description": "Choose one: put up to 2 of your market cards on the bottom of your draft pool and reveal that many replacements; or hold 1 market card into next round.",
+              "GMNotes": "S04 v0.1 | Market control",
+              "CardID": 103,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            }
+          ],
+          "Hands": false,
+          "HideWhenFaceDown": true,
+          "SidewaysCard": false,
+          "ColorDiffuse": {
+            "r": 0.713,
+            "g": 0.713,
+            "b": 0.713
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false
+        },
+        {
+          "GUID": "c6d80c",
+          "Name": "Deck",
+          "Transform": {
+            "posX": 0,
+            "posY": 1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Player 1 draft pool",
+          "Description": "",
+          "DeckIDs": [
+            200,
+            200,
+            201,
+            201,
+            202,
+            202,
+            203,
+            203,
+            204,
+            204,
+            205,
+            205,
+            206,
+            206,
+            207,
+            207,
+            208,
+            208,
+            209,
+            209,
+            210,
+            210,
+            211,
+            211,
+            212,
+            212,
+            213,
+            213,
+            214,
+            214,
+            215,
+            215,
+            216,
+            216,
+            217,
+            217
+          ],
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+              "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+              "NumWidth": 8,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "bc3bf9",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Labor Gang",
+              "Description": "Cost: 2 ideas\nGain 2 (stone).",
+              "GMNotes": "A01 v0.1 | A burst of building stone",
+              "CardID": 200,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3f262f",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Labor Gang",
+              "Description": "Cost: 2 ideas\nGain 2 (stone).",
+              "GMNotes": "A01 v0.1 | A burst of building stone",
+              "CardID": 200,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "51d03e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Scholar",
+              "Description": "Cost: 2 ideas\nDraw 2 cards.",
+              "GMNotes": "A02 v0.1 | Draw",
+              "CardID": 201,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "df94c9",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Scholar",
+              "Description": "Cost: 2 ideas\nDraw 2 cards.",
+              "GMNotes": "A02 v0.1 | Draw",
+              "CardID": 201,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "eeb169",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Smelt",
+              "Description": "Cost: 2 ideas\nYou may pay 2 stone: gain 1 iron.",
+              "GMNotes": "A03 v0.1 | Converter without a track slot",
+              "CardID": 202,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "164f2b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Smelt",
+              "Description": "Cost: 2 ideas\nYou may pay 2 stone: gain 1 iron.",
+              "GMNotes": "A03 v0.1 | Converter without a track slot",
+              "CardID": 202,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "e64f71",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Recall",
+              "Description": "Cost: 3 ideas\nReturn up to 2 exerted cards to your hand.",
+              "GMNotes": "A04 v0.1 | Reuse Quarry, Study or Idea cards",
+              "CardID": 203,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "13978c",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Recall",
+              "Description": "Cost: 3 ideas\nReturn up to 2 exerted cards to your hand.",
+              "GMNotes": "A04 v0.1 | Reuse Quarry, Study or Idea cards",
+              "CardID": 203,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6e5312",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Carve",
+              "Description": "Cost: 4 ideas\nYou may pay 3 iron: gain 1 marble.",
+              "GMNotes": "A05 v0.1 | Marble without a Mason's Lodge",
+              "CardID": 204,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c71254",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Carve",
+              "Description": "Cost: 4 ideas\nYou may pay 3 iron: gain 1 marble.",
+              "GMNotes": "A05 v0.1 | Marble without a Mason's Lodge",
+              "CardID": 204,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "cf8c5e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Demolish",
+              "Description": "Cost: 5 ideas\nPay 2 iron: exile an event on the track.",
+              "GMNotes": "A06 v0.1 | Answer to burying and key events",
+              "CardID": 205,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "08aa6b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Demolish",
+              "Description": "Cost: 5 ideas\nPay 2 iron: exile an event on the track.",
+              "GMNotes": "A06 v0.1 | Answer to burying and key events",
+              "CardID": 205,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "cda56f",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Stone Pit",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: gain 2 (stone).",
+              "GMNotes": "E01 v0.1 | Basic income",
+              "CardID": 206,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "62b8cc",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Stone Pit",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: gain 2 (stone).",
+              "GMNotes": "E01 v0.1 | Basic income",
+              "CardID": 206,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "bc3ea3",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Market Square",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: reveal 1 more card into your market.",
+              "GMNotes": "E02 v0.1 | Market reach",
+              "CardID": 207,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "a00053",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Market Square",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: reveal 1 more card into your market.",
+              "GMNotes": "E02 v0.1 | Market reach",
+              "CardID": 207,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "4e7c50",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Forge",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: you may pay 2 stone: gain 1 iron.",
+              "GMNotes": "E03 v0.1 | Stone to iron",
+              "CardID": 208,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "9c3c6f",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Forge",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: you may pay 2 stone: gain 1 iron.",
+              "GMNotes": "E03 v0.1 | Stone to iron",
+              "CardID": 208,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "07b1ac",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Library",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: draw 1 card.",
+              "GMNotes": "E04 v0.1 | Draw",
+              "CardID": 209,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "951d74",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Library",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: draw 1 card.",
+              "GMNotes": "E04 v0.1 | Draw",
+              "CardID": 209,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "1586df",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Granary",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone, 1 iron\nStart: resources gained from the next event are permanent instead of temporary.",
+              "GMNotes": "E05 v0.1 | Booster; helps whoever owns the next event",
+              "CardID": 210,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "40a82b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Granary",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone, 1 iron\nStart: resources gained from the next event are permanent instead of temporary.",
+              "GMNotes": "E05 v0.1 | Booster; helps whoever owns the next event",
+              "CardID": 210,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "b7d18d",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Echo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 1 iron\nStart: resolve the previous event's Start effect as if you owned it.",
+              "GMNotes": "E06 v0.1 | Feeds off a neighbor",
+              "CardID": 211,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "23cc03",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Echo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 1 iron\nStart: resolve the previous event's Start effect as if you owned it.",
+              "GMNotes": "E06 v0.1 | Feeds off a neighbor",
+              "CardID": 211,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "078c3b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Embargo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: negate the next event.",
+              "GMNotes": "E07 v0.1 | Sabotage that waits at the end of the track",
+              "CardID": 212,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "8a4909",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Embargo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: negate the next event.",
+              "GMNotes": "E07 v0.1 | Sabotage that waits at the end of the track",
+              "CardID": 212,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "12de0b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Guild Hall",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: gain 1 (idea) for each of your events in an unbroken run directly before this one.",
+              "GMNotes": "E08 v0.1 | Rewards contiguous runs",
+              "CardID": 213,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3bbdb6",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Guild Hall",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: gain 1 (idea) for each of your events in an unbroken run directly before this one.",
+              "GMNotes": "E08 v0.1 | Rewards contiguous runs",
+              "CardID": 213,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "7d6196",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mine",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 4 stone\nStart: gain 1 (iron).",
+              "GMNotes": "E09 v0.1 | Iron income",
+              "CardID": 214,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "cf77ee",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mine",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 4 stone\nStart: gain 1 (iron).",
+              "GMNotes": "E09 v0.1 | Iron income",
+              "CardID": 214,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "66d7ed",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Workshop",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 3 stone\nActivate: exert 1 card from your hand to gain 1 (iron).",
+              "GMNotes": "E10 v0.1 | Turns spare cards into iron",
+              "CardID": 215,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "bd49d0",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Workshop",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 3 stone\nActivate: exert 1 card from your hand to gain 1 (iron).",
+              "GMNotes": "E10 v0.1 | Turns spare cards into iron",
+              "CardID": 215,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c35eff",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Usurp",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 2 iron\nMay be built on top of any event, burying it. Start: gain 1 (stone).",
+              "GMNotes": "E11 v0.1 | Overwrites a rival's event",
+              "CardID": 216,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c70972",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Usurp",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 2 iron\nMay be built on top of any event, burying it. Start: gain 1 (stone).",
+              "GMNotes": "E11 v0.1 | Overwrites a rival's event",
+              "CardID": 216,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "e8788e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mason's Lodge",
+              "Description": "Cost: 5 ideas  \u00b7  Build: 3 iron\nStart: you may pay 2 iron: gain 1 marble.",
+              "GMNotes": "E12 v0.1 | Iron to marble",
+              "CardID": 217,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "7a8065",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mason's Lodge",
+              "Description": "Cost: 5 ideas  \u00b7  Build: 3 iron\nStart: you may pay 2 iron: gain 1 marble.",
+              "GMNotes": "E12 v0.1 | Iron to marble",
+              "CardID": 217,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            }
+          ],
+          "Hands": false,
+          "HideWhenFaceDown": true,
+          "SidewaysCard": false,
+          "ColorDiffuse": {
+            "r": 0.713,
+            "g": 0.713,
+            "b": 0.713
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false
+        },
+        {
+          "GUID": "bb69c0",
+          "Name": "Deck",
+          "Transform": {
+            "posX": 0,
+            "posY": 1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Player 2 starting deck",
+          "Description": "",
+          "DeckIDs": [
+            100,
+            100,
+            100,
+            100,
+            100,
+            101,
+            101,
+            101,
+            102,
+            103
+          ],
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+              "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "97480b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "e0d547",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d2328b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "1011cf",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d06adf",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Idea",
+              "Description": "While buying, exert this to count as 1 idea.",
+              "GMNotes": "S01 v0.1 | Buying power",
+              "CardID": 100,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "eb6a31",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d22a11",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "0663eb",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Quarry",
+              "Description": "Gain 1 stone.",
+              "GMNotes": "S02 v0.1 | Basic stone",
+              "CardID": 101,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "5f99be",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Study",
+              "Description": "Exert any number of other cards from your hand. Gain that many (ideas).",
+              "GMNotes": "S03 v0.1 | Turns spare cards into ideas",
+              "CardID": 102,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "fdbb17",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Survey",
+              "Description": "Choose one: put up to 2 of your market cards on the bottom of your draft pool and reveal that many replacements; or hold 1 market card into next round.",
+              "GMNotes": "S04 v0.1 | Market control",
+              "CardID": 103,
+              "CustomDeck": {
+                "1": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/starting-1-0b66310289.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-starting-78d2bba2d8.png",
+                  "NumWidth": 4,
+                  "NumHeight": 2,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            }
+          ],
+          "Hands": false,
+          "HideWhenFaceDown": true,
+          "SidewaysCard": false,
+          "ColorDiffuse": {
+            "r": 0.713,
+            "g": 0.713,
+            "b": 0.713
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false
+        },
+        {
+          "GUID": "dbe6e8",
+          "Name": "Deck",
+          "Transform": {
+            "posX": 0,
+            "posY": 1,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Player 2 draft pool",
+          "Description": "",
+          "DeckIDs": [
+            200,
+            200,
+            201,
+            201,
+            202,
+            202,
+            203,
+            203,
+            204,
+            204,
+            205,
+            205,
+            206,
+            206,
+            207,
+            207,
+            208,
+            208,
+            209,
+            209,
+            210,
+            210,
+            211,
+            211,
+            212,
+            212,
+            213,
+            213,
+            214,
+            214,
+            215,
+            215,
+            216,
+            216,
+            217,
+            217
+          ],
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+              "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+              "NumWidth": 8,
+              "NumHeight": 3,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "ContainedObjects": [
+            {
+              "GUID": "b4fdd9",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Labor Gang",
+              "Description": "Cost: 2 ideas\nGain 2 (stone).",
+              "GMNotes": "A01 v0.1 | A burst of building stone",
+              "CardID": 200,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "861eed",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Labor Gang",
+              "Description": "Cost: 2 ideas\nGain 2 (stone).",
+              "GMNotes": "A01 v0.1 | A burst of building stone",
+              "CardID": 200,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "fd5b5b",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Scholar",
+              "Description": "Cost: 2 ideas\nDraw 2 cards.",
+              "GMNotes": "A02 v0.1 | Draw",
+              "CardID": 201,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3dbe60",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Scholar",
+              "Description": "Cost: 2 ideas\nDraw 2 cards.",
+              "GMNotes": "A02 v0.1 | Draw",
+              "CardID": 201,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3c4b34",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Smelt",
+              "Description": "Cost: 2 ideas\nYou may pay 2 stone: gain 1 iron.",
+              "GMNotes": "A03 v0.1 | Converter without a track slot",
+              "CardID": 202,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d57085",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Smelt",
+              "Description": "Cost: 2 ideas\nYou may pay 2 stone: gain 1 iron.",
+              "GMNotes": "A03 v0.1 | Converter without a track slot",
+              "CardID": 202,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6777a8",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Recall",
+              "Description": "Cost: 3 ideas\nReturn up to 2 exerted cards to your hand.",
+              "GMNotes": "A04 v0.1 | Reuse Quarry, Study or Idea cards",
+              "CardID": 203,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "99885f",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Recall",
+              "Description": "Cost: 3 ideas\nReturn up to 2 exerted cards to your hand.",
+              "GMNotes": "A04 v0.1 | Reuse Quarry, Study or Idea cards",
+              "CardID": 203,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "7cd9c3",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Carve",
+              "Description": "Cost: 4 ideas\nYou may pay 3 iron: gain 1 marble.",
+              "GMNotes": "A05 v0.1 | Marble without a Mason's Lodge",
+              "CardID": 204,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "ebbd8d",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Carve",
+              "Description": "Cost: 4 ideas\nYou may pay 3 iron: gain 1 marble.",
+              "GMNotes": "A05 v0.1 | Marble without a Mason's Lodge",
+              "CardID": 204,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "acf7ca",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Demolish",
+              "Description": "Cost: 5 ideas\nPay 2 iron: exile an event on the track.",
+              "GMNotes": "A06 v0.1 | Answer to burying and key events",
+              "CardID": 205,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "7b8660",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Demolish",
+              "Description": "Cost: 5 ideas\nPay 2 iron: exile an event on the track.",
+              "GMNotes": "A06 v0.1 | Answer to burying and key events",
+              "CardID": 205,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "639850",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Stone Pit",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: gain 2 (stone).",
+              "GMNotes": "E01 v0.1 | Basic income",
+              "CardID": 206,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "40c9b1",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Stone Pit",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: gain 2 (stone).",
+              "GMNotes": "E01 v0.1 | Basic income",
+              "CardID": 206,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "0f6713",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Market Square",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: reveal 1 more card into your market.",
+              "GMNotes": "E02 v0.1 | Market reach",
+              "CardID": 207,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "7c6c5c",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Market Square",
+              "Description": "Cost: 2 ideas  \u00b7  Build: 2 stone\nStart: reveal 1 more card into your market.",
+              "GMNotes": "E02 v0.1 | Market reach",
+              "CardID": 207,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "cd7057",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Forge",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: you may pay 2 stone: gain 1 iron.",
+              "GMNotes": "E03 v0.1 | Stone to iron",
+              "CardID": 208,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "ef82a3",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Forge",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: you may pay 2 stone: gain 1 iron.",
+              "GMNotes": "E03 v0.1 | Stone to iron",
+              "CardID": 208,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "96ffe6",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Library",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: draw 1 card.",
+              "GMNotes": "E04 v0.1 | Draw",
+              "CardID": 209,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "07f9d8",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Library",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: draw 1 card.",
+              "GMNotes": "E04 v0.1 | Draw",
+              "CardID": 209,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "d541fa",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Granary",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone, 1 iron\nStart: resources gained from the next event are permanent instead of temporary.",
+              "GMNotes": "E05 v0.1 | Booster; helps whoever owns the next event",
+              "CardID": 210,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "5d5fe9",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Granary",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone, 1 iron\nStart: resources gained from the next event are permanent instead of temporary.",
+              "GMNotes": "E05 v0.1 | Booster; helps whoever owns the next event",
+              "CardID": 210,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6d04e7",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Echo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 1 iron\nStart: resolve the previous event's Start effect as if you owned it.",
+              "GMNotes": "E06 v0.1 | Feeds off a neighbor",
+              "CardID": 211,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "3c4cf1",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Echo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 1 iron\nStart: resolve the previous event's Start effect as if you owned it.",
+              "GMNotes": "E06 v0.1 | Feeds off a neighbor",
+              "CardID": 211,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "9c7f04",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Embargo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: negate the next event.",
+              "GMNotes": "E07 v0.1 | Sabotage that waits at the end of the track",
+              "CardID": 212,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c7e2e2",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Embargo",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 2 stone\nStart: negate the next event.",
+              "GMNotes": "E07 v0.1 | Sabotage that waits at the end of the track",
+              "CardID": 212,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6869fc",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Guild Hall",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: gain 1 (idea) for each of your events in an unbroken run directly before this one.",
+              "GMNotes": "E08 v0.1 | Rewards contiguous runs",
+              "CardID": 213,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "5b7018",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Guild Hall",
+              "Description": "Cost: 3 ideas  \u00b7  Build: 3 stone\nStart: gain 1 (idea) for each of your events in an unbroken run directly before this one.",
+              "GMNotes": "E08 v0.1 | Rewards contiguous runs",
+              "CardID": 213,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c9b10c",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mine",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 4 stone\nStart: gain 1 (iron).",
+              "GMNotes": "E09 v0.1 | Iron income",
+              "CardID": 214,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "be6a8e",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mine",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 4 stone\nStart: gain 1 (iron).",
+              "GMNotes": "E09 v0.1 | Iron income",
+              "CardID": 214,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "ca4bad",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Workshop",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 3 stone\nActivate: exert 1 card from your hand to gain 1 (iron).",
+              "GMNotes": "E10 v0.1 | Turns spare cards into iron",
+              "CardID": 215,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "f33bbf",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Workshop",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 3 stone\nActivate: exert 1 card from your hand to gain 1 (iron).",
+              "GMNotes": "E10 v0.1 | Turns spare cards into iron",
+              "CardID": 215,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "21654a",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Usurp",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 2 iron\nMay be built on top of any event, burying it. Start: gain 1 (stone).",
+              "GMNotes": "E11 v0.1 | Overwrites a rival's event",
+              "CardID": 216,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "c92758",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Usurp",
+              "Description": "Cost: 4 ideas  \u00b7  Build: 2 iron\nMay be built on top of any event, burying it. Start: gain 1 (stone).",
+              "GMNotes": "E11 v0.1 | Overwrites a rival's event",
+              "CardID": 216,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "5e56ea",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mason's Lodge",
+              "Description": "Cost: 5 ideas  \u00b7  Build: 3 iron\nStart: you may pay 2 iron: gain 1 marble.",
+              "GMNotes": "E12 v0.1 | Iron to marble",
+              "CardID": 217,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            },
+            {
+              "GUID": "6f64e4",
+              "Name": "Card",
+              "Transform": {
+                "posX": 0,
+                "posY": 1,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 180,
+                "rotZ": 180,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Nickname": "Mason's Lodge",
+              "Description": "Cost: 5 ideas  \u00b7  Build: 3 iron\nStart: you may pay 2 iron: gain 1 marble.",
+              "GMNotes": "E12 v0.1 | Iron to marble",
+              "CardID": 217,
+              "CustomDeck": {
+                "2": {
+                  "FaceURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/draft-1-cf80b71e6e.png",
+                  "BackURL": "https://raw.githubusercontent.com/ThePhantomLemon/monument/main/out/images/back-draft-3f1f7c2a7b.png",
+                  "NumWidth": 8,
+                  "NumHeight": 3,
+                  "BackIsHidden": true,
+                  "UniqueBack": false,
+                  "Type": 0
+                }
+              },
+              "Hands": true,
+              "HideWhenFaceDown": true,
+              "SidewaysCard": false,
+              "ColorDiffuse": {
+                "r": 0.713,
+                "g": 0.713,
+                "b": 0.713
+              },
+              "Locked": false,
+              "Grid": true,
+              "Snap": true,
+              "Autoraise": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "GridProjection": false
+            }
+          ],
+          "Hands": false,
+          "HideWhenFaceDown": true,
+          "SidewaysCard": false,
+          "ColorDiffuse": {
+            "r": 0.713,
+            "g": 0.713,
+            "b": 0.713
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false
+        }
+      ],
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}
