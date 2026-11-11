@@ -1,0 +1,16 @@
+[game]
+name = "Monument"
+version = "v0.1"     # printed on cards that leave the csv's version column empty
+players = 2          # each player gets their own starting deck and draft pool
+
+[github]
+# Tabletop Simulator loads the card images from your public GitHub repo.
+user = "ThePhantomLemon"
+repo = "monument"
+branch = "main"
+
+[tts]
+# Leave empty to find Tabletop Simulator's Saved Objects folder automatically.
+# Set it if your TTS saves live somewhere unusual, e.g.
+# saved_objects_dir = 'D:\Games\My Games\Tabletop Simulator\Saves\Saved Objects'
+saved_objects_dir = ""

@@ -1,0 +1,24 @@
+id,name,deck,type,copies,cost,build,text,role,version
+S01,Idea,Starting,Basic,5,,,"While buying, exert this to count as 1 idea.",Buying power,v0.1
+S02,Quarry,Starting,Action,3,,,"Gain 1 stone.",Basic stone,v0.1
+S03,Study,Starting,Action,1,,,"Exert any number of other cards from your hand. Gain that many (ideas).",Turns spare cards into ideas,v0.1
+S04,Survey,Starting,Action,1,,,"Choose one: put up to 2 of your market cards on the bottom of your draft pool and reveal that many replacements; or hold 1 market card into next round.",Market control,v0.1
+A01,Labor Gang,Draft,Action,2,2,,"Gain 2 (stone).",A burst of building stone,v0.1
+A02,Scholar,Draft,Action,2,2,,"Draw 2 cards.",Draw,v0.1
+A03,Smelt,Draft,Action,2,2,,"You may pay 2 stone: gain 1 iron.",Converter without a track slot,v0.1
+A04,Recall,Draft,Action,2,3,,"Return up to 2 exerted cards to your hand.","Reuse Quarry, Study or Idea cards",v0.1
+A05,Carve,Draft,Action,2,4,,"You may pay 3 iron: gain 1 marble.",Marble without a Mason's Lodge,v0.1
+A06,Demolish,Draft,Action,2,5,,"Pay 2 iron: exile an event on the track.",Answer to burying and key events,v0.1
+E01,Stone Pit,Draft,Event,2,2,2 stone,"Start: gain 2 (stone).",Basic income,v0.1
+E02,Market Square,Draft,Event,2,2,2 stone,"Start: reveal 1 more card into your market.",Market reach,v0.1
+E03,Forge,Draft,Event,2,3,3 stone,"Start: you may pay 2 stone: gain 1 iron.",Stone to iron,v0.1
+E04,Library,Draft,Event,2,3,2 stone,"Start: draw 1 card.",Draw,v0.1
+E05,Granary,Draft,Event,2,3,"2 stone, 1 iron","Start: resources gained from the next event are permanent instead of temporary.",Booster; helps whoever owns the next event,v0.1
+E06,Echo,Draft,Event,2,3,1 iron,"Start: resolve the previous event's Start effect as if you owned it.",Feeds off a neighbor,v0.1
+E07,Embargo,Draft,Event,2,3,2 stone,"Start: negate the next event.",Sabotage that waits at the end of the track,v0.1
+E08,Guild Hall,Draft,Event,2,3,3 stone,"Start: gain 1 (idea) for each of your events in an unbroken run directly before this one.",Rewards contiguous runs,v0.1
+E09,Mine,Draft,Event,2,4,4 stone,"Start: gain 1 (iron).",Iron income,v0.1
+E10,Workshop,Draft,Event,2,4,3 stone,"Activate: exert 1 card from your hand to gain 1 (iron).",Turns spare cards into iron,v0.1
+E11,Usurp,Draft,Event,2,4,2 iron,"May be built on top of any event, burying it. Start: gain 1 (stone).",Overwrites a rival's event,v0.1
+E12,Mason's Lodge,Draft,Event,2,5,3 iron,"Start: you may pay 2 iron: gain 1 marble.",Iron to marble,v0.1
+M01,Monument,Shared,Monument,1,,4 marble,"Building this wins the game.",Victory,v0.1
